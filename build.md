@@ -1,6 +1,7 @@
 ### 第一步
 建议网上教程了解一下 Tauri2.0 android
-```pnpm i
+```
+pnpm i
 pnpm build
 cd src-tauri
 cargo tauri android init
