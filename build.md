@@ -17,7 +17,8 @@ upload-keystore.jks
 ```
 文件复制并放入init生成的src-tauri/gen/android/app/目录下
 #### 2. 修改src-tauri\gen\android\app\src\main\java\me\rei1mu\bingcopilot\MainActivity.kt
-同样在./src-tauri/init/给出了参考,添加permissionx
+
+同样在./src-tauri/init/文件夹内给出了参考->添加permissionx
 
 
 
