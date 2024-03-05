@@ -9,19 +9,19 @@ cargo install tauri-cli --version "2.0.0-beta.6"
 ```
 
 ### 第二步
-#### 1.将src-tauri/init/ 目录下的
+#### 1. 将src-tauri/init/ 目录下的
 ```
 key.properties
 build.gradle.kts
 upload-keystore.jks
 ```
 文件复制并放入init生成的src-tauri/gen/android/app/目录下
-#### 2.修改src-tauri\gen\android\app\src\main\java\me\rei1mu\bingcopilot\MainActivity.kt
+#### 2. 修改src-tauri\gen\android\app\src\main\java\me\rei1mu\bingcopilot\MainActivity.kt
 同样在./src-tauri/init/给出了参考,添加permissionx
 
 
 
-#### 生成icon，按照根目录的app-icon.png
+#### 3. 生成icon，按照根目录的app-icon.png
 
 ```
 cargo tauri icon
@@ -29,8 +29,8 @@ cargo tauri icon
 
 
 
-### 安卓签名生成
-#### 如何生成sign,jks/keystore格式 (自行替换)
+#### 4. 安卓签名生成
+#### sign生成jks/keystore格式 (自行替换)
 在src-tauri目录下执行cmd
 ```
 cd src-tauri
