@@ -12,7 +12,7 @@ BingCopilot tauri ver. unofficialapp support pc,android,windows on arm64.
 
 坏：
 1. need proxy / 需要代理
-2. record_audio can not work with permission / 语音无法使用，尽管已经添加+自申请权限
+2. android record_audio can not work with permission / 手机端语音无法使用，尽管已经添加+自申请权限
 
 <br><br>
 
